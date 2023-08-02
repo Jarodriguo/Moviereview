@@ -9,6 +9,10 @@ def home(request):
     # return render(request, 'home.html')
     return render(request, 'home.html', {'name': 'Juan Alberto'})
 
+def about(request):
+    return HttpResponse('<h1>Welcome to About Page</h1>')
+
+
     
 
     
